@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/code-template/code-template.iml" filepath="$PROJECT_DIR$/code-template/code-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hermes.iml" filepath="$PROJECT_DIR$/.idea/hermes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-common/hermes-common.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-common/hermes-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-common-db/hermes-common-db.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-common-db/hermes-common-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-eureka/hermes-eureka.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-eureka/hermes-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-gateway/hermes-gateway.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-gateway/hermes-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-parent.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-api.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-canal/hermes-service-canal.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-canal/hermes-service-canal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/hermes-service-content.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/hermes-service-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/hermes-service-content-api.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/hermes-service-content-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-file/hermes-service-file.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-file/hermes-service-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/hermes-service-goods.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/hermes-service-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-goods-api/hermes-service-goods-api.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-goods-api/hermes-service-goods-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/hermes-service-search.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/hermes-service-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-search-api/hermes-service-search-api.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-search-api/hermes-service-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-web/hermes-web.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-web/hermes-web.iml" />
+    </modules>
+  </component>
+</project>

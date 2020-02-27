@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hermes-common-db" />
+        <module name="hermes-service-file" />
+        <module name="hermes-service-search" />
+        <module name="hermes-service-goods" />
+        <module name="code-template" />
+        <module name="hermes-service-canal" />
+        <module name="hermes-service-goods-api" />
+        <module name="hermes-service-content" />
+        <module name="hermes-service-search-api" />
+        <module name="hermes-common" />
+        <module name="hermes-eureka" />
+        <module name="hermes-service-content-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="code-template" target="1.5" />
+      <module name="hermes-common" target="1.8" />
+      <module name="hermes-common-db" target="1.8" />
+      <module name="hermes-eureka" target="1.8" />
+      <module name="hermes-gateway" target="1.8" />
+      <module name="hermes-parent" target="1.8" />
+      <module name="hermes-service" target="1.8" />
+      <module name="hermes-service-api" target="1.8" />
+      <module name="hermes-service-canal" target="1.8" />
+      <module name="hermes-service-content" target="1.8" />
+      <module name="hermes-service-content-api" target="1.8" />
+      <module name="hermes-service-file" target="1.8" />
+      <module name="hermes-service-goods" target="1.8" />
+      <module name="hermes-service-goods-api" target="1.8" />
+      <module name="hermes-service-search" target="1.8" />
+      <module name="hermes-service-search-api" target="1.8" />
+      <module name="hermes-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hermes-common" options="-parameters" />
+      <module name="hermes-common-db" options="-parameters" />
+      <module name="hermes-eureka" options="-parameters" />
+      <module name="hermes-gateway" options="-parameters" />
+      <module name="hermes-parent" options="-parameters" />
+      <module name="hermes-service" options="-parameters" />
+      <module name="hermes-service-api" options="-parameters" />
+      <module name="hermes-service-canal" options="-parameters" />
+      <module name="hermes-service-content" options="-parameters" />
+      <module name="hermes-service-content-api" options="-parameters" />
+      <module name="hermes-service-file" options="-parameters" />
+      <module name="hermes-service-goods" options="-parameters" />
+      <module name="hermes-service-goods-api" options="-parameters" />
+      <module name="hermes-service-search" options="-parameters" />
+      <module name="hermes-service-search-api" options="-parameters" />
+      <module name="hermes-web" options="-parameters" />
+    </option>
+  </component>
+</project>

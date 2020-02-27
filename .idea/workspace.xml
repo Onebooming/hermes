@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2bb0023-eb4b-45e6-8d3f-f528527956a6" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-service/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-web/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-common/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-common-db/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-goods-api/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-file/target/" />
+    <ignored path="$PROJECT_DIR$/code-template/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-canal/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/target/" />
+    <ignored path="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-search-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hermes" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/src/main/java/com/onebooming/SearchApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-search-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/hermes-parent/hermes-service</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/dao/ParaMapper.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/dao/SpecMapper.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/AlbumService.java" />
+        <option value="$PROJECT_DIR$/code-template/src/main/resources/template/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/code-template/src/main/resources/template/dao/Mapper.java" />
+        <option value="$PROJECT_DIR$/code-template/src/main/resources/template/feign/Feign.java" />
+        <option value="$PROJECT_DIR$/code-template/src/main/resources/template/pojo/Pojo.java" />
+        <option value="$PROJECT_DIR$/code-template/src/main/resources/template/service/impl/ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/code-template/src/main/resources/template/service/Service.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/GoodsApplication.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/dao/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-goods-api/src/main/java/com/onebooming/goods/pojo/UndoLog.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/BrandService.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/dao/BrandMapper.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/TemplateService.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/impl/TemplateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/controller/TemplateController.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/SpecService.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/impl/SpecServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/controller/SpecController.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/ParaService.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/impl/ParaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/controller/ParaController.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/impl/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/SpuService.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/controller/SpuController.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/impl/SpuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-file/pom.xml" />
+        <option value="$PROJECT_DIR$/code-template/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/pom.xml" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/service/ContentService.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/service/impl/ContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/pom.xml" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/src/main/java/com/onebooming/content/feign/ContentCategoryFeign.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-canal/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-canal/pom.xml" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-canal/src/main/java/com/onebooming/canal/listener/CanalDataEventListener.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/ContentApplication.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-canal/src/main/java/com/onebooming/CanalApplication.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/src/main/java/com/onebooming/content/feign/ContentFeign.java" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-search-api/pom.xml" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/pom.xml" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/src/main/java/com/onebooming/SearchApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="20" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="771" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="onebooming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="onebooming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-content-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-content-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-content-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-content-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-content-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-search-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-search-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-search-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-search-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes-service-search-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/src/main/java/com/onebooming/content" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/src/main/java/com/onebooming/content" />
+      <recent name="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming" />
+      <recent name="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-goods-api/src/main/java/com/onebooming/goods/pojo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.onebooming.goods.pojo" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.onebooming.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CanalApplication">
+    <configuration name="CodeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.CodeApplication" />
+      <module name="code-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CanalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hermes-service-canal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onebooming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.onebooming.CanalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hermes-service-content" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onebooming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.onebooming.ContentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hermes-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onebooming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.onebooming.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hermes-service-goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onebooming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.onebooming.GoodsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CanalApplication" />
+        <item itemvalue="Spring Boot.ContentApplication" />
+        <item itemvalue="Application.CodeApplication" />
+        <item itemvalue="Spring Boot.GoodsApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2bb0023-eb4b-45e6-8d3f-f528527956a6" name="Default Changelist" comment="" />
+      <created>1581088282577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581088282577</updated>
+      <workItem from="1581088284237" duration="52077000" />
+      <workItem from="1582174333018" duration="7268000" />
+      <workItem from="1582727331217" duration="1514000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="FastdfsClientTest_upload - 2020.02.09 at 10h 47m 01s.xml">
+      <configuration name="FastdfsClientTest.upload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastdfsClientTest_upload - 2020.02.09 at 10h 52m 36s.xml">
+      <configuration name="FastdfsClientTest.upload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastdfsClientTest_upload - 2020.02.09 at 11h 16m 54s.xml">
+      <configuration name="FastdfsClientTest.upload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastdfsClientTest_download - 2020.02.09 at 22h 47m 29s.xml">
+      <configuration name="FastdfsClientTest.download" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="60859000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.27825466" />
+      <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.2746781" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50089765" side_tool="true" weight="0.2746781" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.27110156" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/controller/TemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/SpecService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/impl/SpecServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/ParaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/impl/ParaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/dao/ParaMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/controller/ParaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#950#962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/controller/SpecController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/impl/BrandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.51/fastjson-1.2.51.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2671">
+          <caret line="332" column="24" selection-start-line="332" selection-start-column="24" selection-end-line="332" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12939#12940#0" expanded="true" />
+            <element signature="e#12986#12987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-goods-api/src/main/java/com/onebooming/goods/pojo/Sku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-766">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-goods-api/src/main/java/com/onebooming/goods/pojo/Spec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-goods-api/src/main/java/com/onebooming/goods/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/SpuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/controller/SpuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="251" column="5" selection-start-line="251" selection-start-column="5" selection-end-line="251" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/service/impl/SpuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="278" column="9" lean-forward="true" selection-start-line="278" selection-start-column="9" selection-end-line="278" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12922#12923#0" expanded="true" />
+            <element signature="e#13059#13060#0" expanded="true" />
+            <element signature="e#13236#13237#0" expanded="true" />
+            <element signature="e#13383#13384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-goods/src/main/java/com/onebooming/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3058">
+          <caret line="148" column="11" selection-start-line="142" selection-start-column="10" selection-end-line="148" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-file/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-file/src/main/java/com/onebooming/FileApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-file/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-eureka/src/main/java/com/onebooming/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-template/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-template/src/main/java/com/itheima/CodeApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/service/impl/ContentCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-goods-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/service/ContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/service/ContentCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/controller/ContentCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/dao/ContentCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/dao/ContentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/src/main/java/com/onebooming/content/feign/ContentCategoryFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/src/main/java/com/onebooming/content/pojo/Content.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/src/main/java/com/onebooming/content/pojo/ContentCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-content/src/main/java/com/onebooming/ContentApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/src/main/java/com/onebooming/content/feign/ContentFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-canal/src/main/java/com/onebooming/CanalApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-canal/src/main/java/com/onebooming/canal/listener/CanalDataEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-canal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-canal/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-content-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-search-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/src/main/java/com/onebooming/SearchApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
