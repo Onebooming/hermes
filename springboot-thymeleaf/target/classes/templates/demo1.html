@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--引入thymleaf标签-->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thymeleaf的模板案例</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<!--输出hello数据-->
+<!--th:text=""表示输出文本内容，${message}，message是变量，后台给message赋值，通过th:text语法在前台输出；-->
+<!--其本质通过特定规则，实现th:text="${message}区域的字符串替换，并将替换完成的页面的以字符串的形式发送给浏览器，浏览器再-->
+<!--通过特定标签进行解析，展示-->
+<p th:text="${message}"></p>
+
+<table>
+    <tr>
+        <td>下标</td>
+        <td>编号</td>
+        <td>姓名</td>
+        <td>住址</td>
+    </tr>
+    <tr th:each="user,userStat:${users}">
+        <td>
+            下标:<span th:text="${userStat.index}"></span>,
+        </td>
+        <td th:text="${user.id}"></td>
+        <td th:text="${user.name}"></td>
+        <td>
+            <span th:if="${(user.name =='李四')}">北京人牛逼格拉斯</span>
+            <span th:if="${(user.name !='李四')}">上海人牛逼格拉斯</span>
+        </td>
+        <td th:text="${user.address}"></td>
+    </tr>
+</table>
+<br>
+==============================================
+
+<!--输出后台传过来的map数据-->
+<div th:each="map,mapStat:${dataMap}">  <!-- th:each循环 -->
+    <div th:text="${map}"></div>    <!-- 直接拿到当前map的键值对，前端显示效果： Address=深圳 -->
+    key:<span th:text="${mapStat.current.key}"></span><br/><!-- 取map的key，前端显示效果：key: Address=深圳 -->
+    value:<span th:text="${mapStat.current.value}"></span><br/><!--取map的value，前端显示结果： value: Address -->
+    <br>
+    ==============================================
+</div>
+
+<!--输出后台传过来的数组-->
+<div th:each="nm,nmStat:${names}">
+    <span th:text="${nmStat.count}"></span><span th:text="${nm}"></span>
+    <br>
+    ==============================================
+</div>
+<br>
+==============================================
+<!--页面输出日期-->
+<div>
+    当前日期是：
+    <span  th:text="${#dates.format(now,'yyyy-MM-dd hh:ss:mm')}"></span>
+</div>
+<br>
+==============================================
+<!--th:action ：定义后台控制器路径，类似<form>标签的action属性。-->
+<form id="login-form" th:action="@{/test/hello}">
+    <button>提交</button>
+</form>
+<br>
+==============================================
+<!--th:if判断，判断页面变量中的条件，执行区域的内容是否执行-->
+<div>
+    <span th:if="${(age>=18)}">终于长大了！</span>
+</div>
+<br>
+==============================================
+<!--使用JavaScript-->
+<button onclick="abc();">
+    <br>
+    ==============================================
+    <br>
+
+    aaaaaaaaaaa</button>
+
+<!--||实现字符串拼接-->
+<br>
+==============================================
+<a th:class="|${passage1}${passage2}|">字符串拼接</a>
+</body>
+<script th:inline="javascript">  //定义内联
+
+    var hhh = [[${message}]];  //获取后台model中的值并赋值给变量
+    function abc() {
+        alert(hhh);
+    }
+
+</script>
+</html>

@@ -1,0 +1,6 @@
+spring:
+  thymeleaf:
+    cache: false
+
+#    创建application:
+#      yml,并设置thymeleaf的缓存设置，设置为false。默认加缓存的，用于测试。:

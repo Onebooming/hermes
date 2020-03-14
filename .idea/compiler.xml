@@ -6,18 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hermes-common-db" />
-        <module name="hermes-service-file" />
-        <module name="hermes-service-search" />
-        <module name="hermes-service-goods" />
-        <module name="code-template" />
+        <module name="hermes-web-item-api" />
         <module name="hermes-service-canal" />
-        <module name="hermes-service-goods-api" />
-        <module name="hermes-service-content" />
-        <module name="hermes-service-search-api" />
-        <module name="hermes-common" />
         <module name="hermes-eureka" />
+        <module name="code-template" />
+        <module name="hermes-gateway-web" />
+        <module name="hermes-service-file" />
+        <module name="hermes-service-content" />
+        <module name="hermes-common-db" />
+        <module name="springboot-thymeleaf" />
+        <module name="hermes-common" />
+        <module name="hermes-service-goods" />
+        <module name="hermes-web-search" />
+        <module name="hermes-service-search-api" />
+        <module name="hermes-service-user" />
+        <module name="hermes-service-search" />
         <module name="hermes-service-content-api" />
+        <module name="hermes-service-user-api" />
+        <module name="hermes-service-goods-api" />
+        <module name="hermes-web-item" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +33,7 @@
       <module name="hermes-common-db" target="1.8" />
       <module name="hermes-eureka" target="1.8" />
       <module name="hermes-gateway" target="1.8" />
+      <module name="hermes-gateway-web" target="1.8" />
       <module name="hermes-parent" target="1.8" />
       <module name="hermes-service" target="1.8" />
       <module name="hermes-service-api" target="1.8" />
@@ -37,7 +45,13 @@
       <module name="hermes-service-goods-api" target="1.8" />
       <module name="hermes-service-search" target="1.8" />
       <module name="hermes-service-search-api" target="1.8" />
+      <module name="hermes-service-user" target="1.8" />
+      <module name="hermes-service-user-api" target="1.8" />
       <module name="hermes-web" target="1.8" />
+      <module name="hermes-web-item" target="1.8" />
+      <module name="hermes-web-item-api" target="1.8" />
+      <module name="hermes-web-search" target="1.8" />
+      <module name="springboot-thymeleaf" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -46,6 +60,7 @@
       <module name="hermes-common-db" options="-parameters" />
       <module name="hermes-eureka" options="-parameters" />
       <module name="hermes-gateway" options="-parameters" />
+      <module name="hermes-gateway-web" options="-parameters" />
       <module name="hermes-parent" options="-parameters" />
       <module name="hermes-service" options="-parameters" />
       <module name="hermes-service-api" options="-parameters" />
@@ -57,7 +72,13 @@
       <module name="hermes-service-goods-api" options="-parameters" />
       <module name="hermes-service-search" options="-parameters" />
       <module name="hermes-service-search-api" options="-parameters" />
+      <module name="hermes-service-user" options="-parameters" />
+      <module name="hermes-service-user-api" options="-parameters" />
       <module name="hermes-web" options="-parameters" />
+      <module name="hermes-web-item" options="-parameters" />
+      <module name="hermes-web-item-api" options="-parameters" />
+      <module name="hermes-web-search" options="-parameters" />
+      <module name="springboot-thymeleaf" options="-parameters" />
     </option>
   </component>
 </project>

@@ -20,6 +20,7 @@
         <module>hermes-service-canal</module>
         <module>hermes-service-content</module>
         <module>hermes-service-search</module>
+        <module>hermes-service-user</module>
     </modules>
 
     <!--依赖-->

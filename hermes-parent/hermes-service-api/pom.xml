@@ -19,6 +19,8 @@
         <module>hermes-service-goods-api</module>
         <module>hermes-service-content-api</module>
         <module>hermes-service-search-api</module>
+        <module>hermes-web-item-api</module>
+        <module>hermes-service-user-api</module>
     </modules>
 
     <!--依赖包-->

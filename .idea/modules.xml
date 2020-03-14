@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-common-db/hermes-common-db.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-common-db/hermes-common-db.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-eureka/hermes-eureka.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-eureka/hermes-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-gateway/hermes-gateway.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-gateway/hermes-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-gateway/hermes-gateway-web/hermes-gateway-web.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-gateway/hermes-gateway-web/hermes-gateway-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-parent.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-api.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-api.iml" />
@@ -19,7 +20,13 @@
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-goods-api/hermes-service-goods-api.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-goods-api/hermes-service-goods-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/hermes-service-search.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search/hermes-service-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-search-api/hermes-service-search-api.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-search-api/hermes-service-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-user/hermes-service-user.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-user/hermes-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-user-api/hermes-service-user-api.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-user-api/hermes-service-user-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-web/hermes-web.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-web/hermes-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-web/hermes-web-item/hermes-web-item.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-web/hermes-web-item/hermes-web-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-web-item-api/hermes-web-item-api.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-web-item-api/hermes-web-item-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-web/hermes-web-search/hermes-web-search.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-web/hermes-web-search/hermes-web-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-thymeleaf/springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-thymeleaf/springboot-thymeleaf.iml" />
     </modules>
   </component>
 </project>

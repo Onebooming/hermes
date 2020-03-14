@@ -4,6 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.data.elasticsearch.core.SearchResultMapper;
+import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 /**
  * @author Onebooming
@@ -13,6 +16,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})//排斥禁用数据库加载
 @EnableEurekaClient
+@EnableFeignClients(basePackages = "com.onebooming.goods.feign")
+@EnableElasticsearchRepositories(basePackages = "com.onebooming.dao")
 public class SearchApplication {
 
     public static void main(String[] args) {
