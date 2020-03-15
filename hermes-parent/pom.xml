@@ -19,6 +19,7 @@
         <module>hermes-eureka</module>
         <module>hermes-common</module>
         <module>hermes-common-db</module>
+        <module>hermes-user-oauth</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

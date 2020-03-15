@@ -10,6 +10,7 @@
         <module name="hermes-service-canal" />
         <module name="hermes-eureka" />
         <module name="code-template" />
+        <module name="hermes-user-oauth" />
         <module name="hermes-gateway-web" />
         <module name="hermes-service-file" />
         <module name="hermes-service-content" />
@@ -47,6 +48,7 @@
       <module name="hermes-service-search-api" target="1.8" />
       <module name="hermes-service-user" target="1.8" />
       <module name="hermes-service-user-api" target="1.8" />
+      <module name="hermes-user-oauth" target="1.8" />
       <module name="hermes-web" target="1.8" />
       <module name="hermes-web-item" target="1.8" />
       <module name="hermes-web-item-api" target="1.8" />
@@ -74,6 +76,7 @@
       <module name="hermes-service-search-api" options="-parameters" />
       <module name="hermes-service-user" options="-parameters" />
       <module name="hermes-service-user-api" options="-parameters" />
+      <module name="hermes-user-oauth" options="-parameters" />
       <module name="hermes-web" options="-parameters" />
       <module name="hermes-web-item" options="-parameters" />
       <module name="hermes-web-item-api" options="-parameters" />

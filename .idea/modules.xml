@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-search-api/hermes-service-search-api.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-search-api/hermes-service-search-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-user/hermes-service-user.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-user/hermes-service-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-user-api/hermes-service-user-api.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-user-api/hermes-service-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-user-oauth/hermes-user-oauth.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-user-oauth/hermes-user-oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-web/hermes-web.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-web/hermes-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-web/hermes-web-item/hermes-web-item.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-web/hermes-web-item/hermes-web-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-web-item-api/hermes-web-item-api.iml" filepath="$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-web-item-api/hermes-web-item-api.iml" />
