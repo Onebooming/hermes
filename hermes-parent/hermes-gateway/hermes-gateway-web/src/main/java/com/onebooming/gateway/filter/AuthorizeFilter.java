@@ -38,12 +38,18 @@ public class AuthorizeFilter implements GlobalFilter, Ordered {
         ServerHttpRequest request = exchange.getRequest();
         ServerHttpResponse response = exchange.getResponse();
 
+
         //获取请求的URI
         String path = request.getURI().getPath();
 
         //如果是登录、goods等开放的微服务[这里的goods部分开放],则直接放行,这里不做完整演示，完整演示需要设计一套权限系统
-        if (path.startsWith("/api/user/login") || path.startsWith("/api/brand/search") || path.startsWith("/api/brand")) {
-            //放行
+//        if (path.startsWith("/api/user/login") || path.startsWith("/api/brand/search") || path.startsWith("/api/brand")) {
+//            //放行
+//            Mono<Void> filter = chain.filter(exchange);
+//            return filter;
+//        }
+        //如果包含则放行
+        if(URLFilter.hasAuthorize(path)){
             Mono<Void> filter = chain.filter(exchange);
             return filter;
         }
@@ -71,10 +77,16 @@ public class AuthorizeFilter implements GlobalFilter, Ordered {
 
         //解析令牌数据
         try {
-            Claims claims = JwtUtil.parseJWT(tokent);
+//            Claims claims = JwtUtil.parseJWT(tokent);
             //将令牌数据添加到头文件中
             //必须将令牌添加到请求头中，这样以后其他微服务的鉴权都从header中取到令牌信息
-            request.mutate().header(AUTHORIZE_TOKEN,claims.toString());
+//            request.mutate().header(AUTHORIZE_TOKEN,claims.toString());
+            if(!tokent.startsWith("bearer") && !tokent.startsWith("Bearer")){
+                request.mutate().header(AUTHORIZE_TOKEN,"Bearer "+tokent);
+            }else {
+                request.mutate().header(AUTHORIZE_TOKEN,tokent);
+            }
+
         } catch (Exception e) {
             e.printStackTrace();
             //解析失败，响应401错误

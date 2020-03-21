@@ -4,6 +4,9 @@ import org.junit.Test;
 import org.springframework.security.jwt.Jwt;
 import org.springframework.security.jwt.JwtHelper;
 import org.springframework.security.jwt.crypto.sign.RsaVerifier;
+
+import java.util.Base64;
+
 /**
  * @author Onebooming
  * @version 1.0
@@ -32,5 +35,13 @@ public class ParseJwtTest {
         //jwt令牌
         String encoded = jwt.getEncoded();
         System.out.println(encoded);
+    }
+
+    @Test
+    public void testDecodeBash64() throws Exception{
+        String str  = "Y2hhbmdnb3U6Y2hhbmdnb3U=";
+        byte[] decode = Base64.getDecoder().decode(str);
+        String decodeStr = new String(decode,"UTF-8");
+        System.out.println(decodeStr);
     }
 }

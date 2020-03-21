@@ -31,9 +31,10 @@ auth:
   clientSecret: changgou
   cookieDomain: localhost
   cookieMaxAge: -1
+# 当前证书的相关操作
 encrypt:
   key-store:
     location: classpath:/changgou.jks
-    secret: changgou
-    alias: changgou
-    password: changgou
+    secret: changgou #秘钥
+    alias: changgou  #别名
+    password: changgou #访问密码

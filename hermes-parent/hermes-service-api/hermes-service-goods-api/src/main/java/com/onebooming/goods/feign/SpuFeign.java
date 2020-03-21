@@ -23,4 +23,6 @@ public interface SpuFeign {
      */
     @GetMapping("/{id}")
     public Result<Spu> findById(@PathVariable(name = "id") Long id);
+
+
 }

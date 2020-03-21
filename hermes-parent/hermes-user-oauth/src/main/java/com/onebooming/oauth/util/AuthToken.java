@@ -6,7 +6,7 @@ import java.io.Serializable;
  * @author Onebooming
  * @version 1.0
  * @date 2020-03-15 18:20
- * @ApiNote
+ * @ApiNote:存储用户令牌数据
  */
 public class AuthToken implements Serializable{
 

@@ -17,6 +17,7 @@
     <modules>
         <module>hermes-web-search</module>
         <module>hermes-web-item</module>
+        <module>hermes-web-order</module>
     </modules>
 
     <dependencies>

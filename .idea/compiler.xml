@@ -9,6 +9,7 @@
         <module name="hermes-web-item-api" />
         <module name="hermes-service-canal" />
         <module name="hermes-eureka" />
+        <module name="hermes-web-order" />
         <module name="code-template" />
         <module name="hermes-user-oauth" />
         <module name="hermes-gateway-web" />
@@ -18,10 +19,12 @@
         <module name="springboot-thymeleaf" />
         <module name="hermes-common" />
         <module name="hermes-service-goods" />
+        <module name="hermes-service-order-api" />
         <module name="hermes-web-search" />
         <module name="hermes-service-search-api" />
         <module name="hermes-service-user" />
         <module name="hermes-service-search" />
+        <module name="hermes-service-order" />
         <module name="hermes-service-content-api" />
         <module name="hermes-service-user-api" />
         <module name="hermes-service-goods-api" />
@@ -44,6 +47,8 @@
       <module name="hermes-service-file" target="1.8" />
       <module name="hermes-service-goods" target="1.8" />
       <module name="hermes-service-goods-api" target="1.8" />
+      <module name="hermes-service-order" target="1.8" />
+      <module name="hermes-service-order-api" target="1.8" />
       <module name="hermes-service-search" target="1.8" />
       <module name="hermes-service-search-api" target="1.8" />
       <module name="hermes-service-user" target="1.8" />
@@ -52,6 +57,7 @@
       <module name="hermes-web" target="1.8" />
       <module name="hermes-web-item" target="1.8" />
       <module name="hermes-web-item-api" target="1.8" />
+      <module name="hermes-web-order" target="1.8" />
       <module name="hermes-web-search" target="1.8" />
       <module name="springboot-thymeleaf" target="1.8" />
     </bytecodeTargetLevel>
@@ -72,6 +78,8 @@
       <module name="hermes-service-file" options="-parameters" />
       <module name="hermes-service-goods" options="-parameters" />
       <module name="hermes-service-goods-api" options="-parameters" />
+      <module name="hermes-service-order" options="-parameters" />
+      <module name="hermes-service-order-api" options="-parameters" />
       <module name="hermes-service-search" options="-parameters" />
       <module name="hermes-service-search-api" options="-parameters" />
       <module name="hermes-service-user" options="-parameters" />
@@ -80,6 +88,7 @@
       <module name="hermes-web" options="-parameters" />
       <module name="hermes-web-item" options="-parameters" />
       <module name="hermes-web-item-api" options="-parameters" />
+      <module name="hermes-web-order" options="-parameters" />
       <module name="hermes-web-search" options="-parameters" />
       <module name="springboot-thymeleaf" options="-parameters" />
     </option>

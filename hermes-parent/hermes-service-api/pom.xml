@@ -21,6 +21,7 @@
         <module>hermes-service-search-api</module>
         <module>hermes-web-item-api</module>
         <module>hermes-service-user-api</module>
+        <module>hermes-service-order-api</module>
     </modules>
 
     <!--依赖包-->
