@@ -8,6 +8,11 @@ spring:
     url: jdbc:mysql://172.16.10.200:3306/changgou_goods?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
     password: 123456
+  redis:
+    host: 172.16.10.200
+    port: 6379
+    main:
+      allow-bean-definition-overriding: true
 eureka:
   client:
     service-url:
@@ -17,6 +22,16 @@ eureka:
 feign:
   hystrix:
     enabled: true
+# 要调用其他微服务，需要将头文件中的令牌数据携带到其他微服务中取，所以我们不能使用hystrix的多线程模式
+#hystrix 配置
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 100000
+          strategy: SEMAPHORE
 mybatis:
   configuration:
     map-underscore-to-camel-case: true

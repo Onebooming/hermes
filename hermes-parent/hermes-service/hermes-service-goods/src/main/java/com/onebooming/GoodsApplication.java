@@ -1,5 +1,6 @@
 package com.onebooming;
 
+import entity.FeignInterceptor;
 import entity.IdWorker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -28,5 +29,10 @@ public class GoodsApplication {
     @Bean
     public IdWorker idWorker(){
         return new IdWorker(0,0);
+    }
+
+    @Bean
+    public FeignInterceptor feignInterceptor(){
+        return new FeignInterceptor();
     }
 }

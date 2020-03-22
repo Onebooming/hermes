@@ -20,15 +20,16 @@ eureka:
       defaultZone: http://127.0.0.1:7001/eureka
   instance:
     prefer-ip-address: true
+# 开启feign的熔断：默认是线程池隔离
 feign:
   hystrix:
     enabled: true
-
+# 如果开启了熔断，则默认是线程池隔离，会启用新的数据，需要将熔断策略换成信号量隔离，此时不会开启新的线程
 hystrix:
   command:
     default:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 10000
+            timeoutInMilliseconds: 1000000
           strategy: SEMAPHORE # 信号量 共享线程

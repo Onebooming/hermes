@@ -7,6 +7,8 @@ import entity.Result;
 import entity.StatusCode;
 import entity.TokenDecode;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationDetails;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -53,6 +55,9 @@ public class CartController {
      */
     @GetMapping(value = "/list")
     public Result list(){
+        OAuth2AuthenticationDetails details = (OAuth2AuthenticationDetails) SecurityContextHolder.getContext().getAuthentication().getDetails();
+        String tokenValue = details.getTokenValue();
+        System.out.println(tokenValue); //打印token
         //用户名
 //        String username="szitheima";
         String username = tokenDecode.getUserInfo().get("username");

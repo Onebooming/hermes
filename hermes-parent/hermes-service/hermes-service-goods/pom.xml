@@ -18,6 +18,11 @@
             <artifactId>hermes-service-goods-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.onebooming</groupId>
+            <artifactId>hermes-service-order-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 

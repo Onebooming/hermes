@@ -1,6 +1,8 @@
 package com.onebooming.order;
 
-import com.onebooming.order.intercept.FeignInterceptor;
+
+import entity.FeignInterceptor;
+import entity.IdWorker;
 import entity.TokenDecode;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,7 +19,7 @@ import tk.mybatis.spring.annotation.MapperScan;
  */
 @SpringBootApplication
 @EnableEurekaClient
-@EnableFeignClients(basePackages = {"com.onebooming.goods.feign"})
+@EnableFeignClients(basePackages = {"com.onebooming.goods.feign","com.onebooming.user.feign"})
 @MapperScan(basePackages = {"com.onebooming.order.dao"})
 public class OrderApplication {
 
@@ -27,6 +29,7 @@ public class OrderApplication {
 
     /***
      * 创建拦截器Bean对象
+     * 将Feign调用拦截器注入到容器中
      * @return
      */
     @Bean
@@ -40,5 +43,10 @@ public class OrderApplication {
     @Bean
     public TokenDecode tokenDecode(){
         return new TokenDecode();
+    }
+
+    @Bean
+    public IdWorker idWorker(){
+        return new IdWorker(1,1);
     }
 }

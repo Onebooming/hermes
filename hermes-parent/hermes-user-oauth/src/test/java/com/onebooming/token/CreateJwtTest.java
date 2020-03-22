@@ -52,6 +52,7 @@ public class CreateJwtTest {
         tokenMap.put("id", "1");
         tokenMap.put("name", "itheima");
         tokenMap.put("roles", "ROLE_VIP,ROLE_USER");
+        tokenMap.put("authorities","admin,user"); //在令牌中写入权限相关的内容
 
         //生成Jwt令牌
         Jwt jwt = JwtHelper.encode(JSON.toJSONString(tokenMap), new RsaSigner(rsaPrivate));

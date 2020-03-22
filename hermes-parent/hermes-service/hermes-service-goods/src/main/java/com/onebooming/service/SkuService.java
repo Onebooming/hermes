@@ -12,6 +12,12 @@ import java.util.List;
  *****/
 public interface SkuService {
 
+    /***
+     * 库存递减
+     * @param username
+     */
+    void decrCount(String username);
+
     /**
      * 根据状态查询SKU列表
      */

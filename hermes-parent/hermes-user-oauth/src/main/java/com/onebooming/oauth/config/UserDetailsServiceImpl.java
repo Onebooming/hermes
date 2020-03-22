@@ -66,7 +66,13 @@ public class UserDetailsServiceImpl implements UserDetailsService {
             return null;
         }
 
-        //查询数据库
+        /**
+         * 从数据库查询用户信息
+         * 1-没有令牌，Feign调用之前生成令牌；
+         * 2-Feign调用之前，令牌需要携带过去
+         * 3-Feign调用之前，令牌需要存放到Headers文件中
+         * 4-请求➡️Feign调用->拦截器RequestInterceptor->Feign调用之前拦截
+         */
         Result<com.onebooming.user.pojo.User> user = userFeign.findById(username);
         //根据用户名查询用户信息
 //        String pwd = new BCryptPasswordEncoder().encode("szitheima");

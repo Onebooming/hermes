@@ -22,6 +22,11 @@
             <artifactId>hermes-service-goods-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.onebooming</groupId>
+            <artifactId>hermes-service-user-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!--oauth依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

@@ -23,6 +23,17 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
+    /***
+     * 修改用户积分
+     * @param username
+     * @param pint
+     * @return
+     */
+    @Override
+    public int addUserPoints(String username, Integer pint) {
+        return userMapper.addUserPoints(username,pint);
+    }
+
 
     /**
      * User条件+分页查询

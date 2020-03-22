@@ -18,6 +18,14 @@ import java.util.List;
 public interface SkuFeign {
 
     /***
+     * 库存递减
+     * @param username
+     * @return
+     */
+    @PostMapping(value = "/decr/count")
+    Result decrCount(@RequestParam(value = "username") String username);
+
+    /***
      * 根据审核状态查询Sku
      * @param status
      * @return

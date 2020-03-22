@@ -4,8 +4,10 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.onebooming.dao.SkuMapper;
 import com.onebooming.goods.pojo.Sku;
+import com.onebooming.order.pojo.OrderItem;
 import com.onebooming.service.SkuService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
@@ -22,6 +24,28 @@ public class SkuServiceImpl implements SkuService {
 
     @Autowired
     private SkuMapper skuMapper;
+
+    @Autowired
+    private RedisTemplate redisTemplate;
+
+    /***
+     * 库存递减
+     * @param username
+     */
+    @Override
+    public void decrCount(String username) {
+        //获取购物车数据
+        List<OrderItem> orderItems = redisTemplate.boundHashOps("Cart_" + username).values();
+
+        //循环递减
+        for (OrderItem orderItem : orderItems) {
+            //递减库存
+            int count = skuMapper.decrCount(orderItem);
+            if(count<=0){
+                throw new RuntimeException("库存不足，递减失败！");
+            }
+        }
+    }
 
     /***
      * 根据状态查询SKU列表

@@ -26,6 +26,8 @@ public class AuthorizeFilter implements GlobalFilter, Ordered {
     //令牌头名字
     private static final String AUTHORIZE_TOKEN = "Authorization";
 
+    private static final String USER_LOGIN_URL = "http://localhost:9001/oauth/login";
+
     /***
      * 全局过滤器
      * @param exchange
@@ -48,7 +50,8 @@ public class AuthorizeFilter implements GlobalFilter, Ordered {
 //            Mono<Void> filter = chain.filter(exchange);
 //            return filter;
 //        }
-        //如果包含则放行
+        //如果用户的url中，包含一些登录或者不需要权限登录的请求，则放行
+        //这些放行的url在URLFilter中指定了
         if(URLFilter.hasAuthorize(path)){
             Mono<Void> filter = chain.filter(exchange);
             return filter;
@@ -71,8 +74,11 @@ public class AuthorizeFilter implements GlobalFilter, Ordered {
         //如果为空，则输出错误代码
         if (StringUtils.isEmpty(tokent)) {
             //设置方法不允许被访问，405错误代码
-            response.setStatusCode(HttpStatus.METHOD_NOT_ALLOWED);
-            return response.setComplete();
+//            response.setStatusCode(HttpStatus.METHOD_NOT_ALLOWED);
+//            return response.setComplete();
+            //跳转登录页面
+            //此时再测试，就可以识别未登录用户，跳转到登录页，然后根据登录状态，如果登录成功，则跳转到来源页。
+            return needAuthorization(USER_LOGIN_URL+"?FROM="+request.getURI().getPath(),exchange);
         }
 
         //解析令牌数据
@@ -96,6 +102,19 @@ public class AuthorizeFilter implements GlobalFilter, Ordered {
 
         //放行
         return chain.filter(exchange);
+    }
+
+    /**
+     * 响应设置，设置登录请求头
+     * @param userLoginUrl
+     * @param exchange
+     * @return
+     */
+    public Mono<Void> needAuthorization(String userLoginUrl, ServerWebExchange exchange) {
+        ServerHttpResponse response = exchange.getResponse();
+        response.setStatusCode(HttpStatus.SEE_OTHER);
+        response.getHeaders().set("Location",userLoginUrl);
+        return exchange.getResponse().setComplete();
     }
 
     /***

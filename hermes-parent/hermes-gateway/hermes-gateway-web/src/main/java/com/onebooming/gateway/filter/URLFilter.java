@@ -23,6 +23,7 @@ public class URLFilter {
         String[] split = noAuthorizeurls.split(",");
 
         for (String s : split) {
+            //如果当前url在许可放行urls中
             if (s.equals(uri)) {
                 return true;
             }

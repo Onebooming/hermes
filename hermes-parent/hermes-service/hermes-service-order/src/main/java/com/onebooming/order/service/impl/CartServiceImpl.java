@@ -99,6 +99,7 @@ public class CartServiceImpl implements CartService {
     @Override
     public List<OrderItem> list(String username) {
         //查询所有购物车数据
+        //redisTemplate.boundHashOps("Cart_"+username).values();获取指定命名空间下的所有数据
         List<OrderItem> orderItems = redisTemplate.boundHashOps("Cart_"+username).values();
         return orderItems;
     }
