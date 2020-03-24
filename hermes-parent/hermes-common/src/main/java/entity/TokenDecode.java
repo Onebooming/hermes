@@ -8,7 +8,6 @@ import org.springframework.security.jwt.Jwt;
 import org.springframework.security.jwt.JwtHelper;
 import org.springframework.security.jwt.crypto.sign.RsaVerifier;
 import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationDetails;
-import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import java.io.BufferedReader;
@@ -23,7 +22,6 @@ import java.util.stream.Collectors;
  * @date 2020-03-18 00:01
  * @ApiNote
  */
-@Component
 public class TokenDecode {
     //公钥
     private static final String PUBLIC_KEY = "public.key";

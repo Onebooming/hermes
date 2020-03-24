@@ -32,8 +32,6 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @Autowired
-    private TokenDecode tokenDecode;
 
     /***
      * 增加用户积分
@@ -41,6 +39,7 @@ public class UserController {
      */
     @GetMapping(value = "/points/add")
     public Result addPoints(Integer points){
+        TokenDecode tokenDecode = new TokenDecode();
         //获取用户名
         Map<String, String> userMap = tokenDecode.getUserInfo();
         String username = userMap.get("username");

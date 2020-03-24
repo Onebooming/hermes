@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hermes-web-item-api" />
         <module name="hermes-service-canal" />
+        <module name="hermes-service-pay" />
         <module name="hermes-eureka" />
         <module name="hermes-web-order" />
         <module name="code-template" />
@@ -49,6 +50,7 @@
       <module name="hermes-service-goods-api" target="1.8" />
       <module name="hermes-service-order" target="1.8" />
       <module name="hermes-service-order-api" target="1.8" />
+      <module name="hermes-service-pay" target="1.8" />
       <module name="hermes-service-search" target="1.8" />
       <module name="hermes-service-search-api" target="1.8" />
       <module name="hermes-service-user" target="1.8" />
@@ -80,6 +82,7 @@
       <module name="hermes-service-goods-api" options="-parameters" />
       <module name="hermes-service-order" options="-parameters" />
       <module name="hermes-service-order-api" options="-parameters" />
+      <module name="hermes-service-pay" options="-parameters" />
       <module name="hermes-service-search" options="-parameters" />
       <module name="hermes-service-search-api" options="-parameters" />
       <module name="hermes-service-user" options="-parameters" />

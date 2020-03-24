@@ -13,6 +13,19 @@ import java.util.List;
 public interface OrderService {
 
     /***
+     * 删除订单操作
+     * @param id
+     */
+    void deleteOrder(String id);
+
+    /***
+     * 根据订单ID修改订单状态
+     * @param transactionid 交易流水号
+     * @param orderId
+     */
+    void updateStatus(String orderId,String transactionid);
+
+    /***
      * Order多条件分页查询
      * @param order
      * @param page
@@ -52,7 +65,7 @@ public interface OrderService {
      * 新增Order
      * @param order
      */
-    int add(Order order);
+    Order add(Order order);
 
     /**
      * 根据ID查询Order

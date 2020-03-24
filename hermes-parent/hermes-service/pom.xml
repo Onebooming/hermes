@@ -22,6 +22,7 @@
         <module>hermes-service-search</module>
         <module>hermes-service-user</module>
         <module>hermes-service-order</module>
+        <module>hermes-service-pay</module>
     </modules>
 
     <!--依赖-->

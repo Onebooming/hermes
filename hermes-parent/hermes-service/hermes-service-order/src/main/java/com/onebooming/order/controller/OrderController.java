@@ -42,8 +42,9 @@ public class OrderController {
         String username = userMap.get("username");
         //设置购买用户
         order.setUsername(username);
-        orderService.add(order);
-        return new Result(true,StatusCode.OK,"添加成功");
+        //调用service，实现添加order
+         Order order1 = orderService.add(order);
+        return new Result(true,StatusCode.OK,"添加成功",order1);
     }
 
     /***
