@@ -3,6 +3,7 @@ package com.onebooming.order.service;
 import com.github.pagehelper.PageInfo;
 import com.onebooming.order.pojo.Order;
 
+import java.text.ParseException;
 import java.util.List;
 
 /****
@@ -23,7 +24,7 @@ public interface OrderService {
      * @param transactionid 交易流水号
      * @param orderId
      */
-    void updateStatus(String orderId,String transactionid);
+    void updateStatus(String orderId,String transactionid,String paytime) throws ParseException;
 
     /***
      * Order多条件分页查询

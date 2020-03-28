@@ -23,6 +23,7 @@
         <module>hermes-service-user</module>
         <module>hermes-service-order</module>
         <module>hermes-service-pay</module>
+        <module>hermes-service-seckill</module>
     </modules>
 
     <!--依赖-->

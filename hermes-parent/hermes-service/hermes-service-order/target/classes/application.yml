@@ -11,6 +11,11 @@ spring:
   redis:
     host: 172.16.10.200
     port: 6379
+  rabbitmq:
+    host: 172.16.10.200
+    username: guest
+    password: guest
+    port: 5672
   main:
     allow-bean-definition-overriding: true
 
@@ -33,3 +38,14 @@ hystrix:
           thread:
             timeoutInMilliseconds: 1000000
           strategy: SEMAPHORE # 信号量 共享线程
+
+
+#位置支付交换机和队列
+mq:
+  pay:
+    exchange:
+      order: exchange.order
+    queue:
+      order: queue.order
+    routing:
+      key: queue.order

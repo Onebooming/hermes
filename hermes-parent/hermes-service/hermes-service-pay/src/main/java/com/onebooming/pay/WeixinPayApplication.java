@@ -28,6 +28,9 @@ public class WeixinPayApplication {
     }
 
 
+    /**
+     * 读取配置文件中的对象
+     */
     @Autowired
     private Environment env;
     /***

@@ -49,18 +49,19 @@ public class WeixinPayController {
     public String notifyUrl(HttpServletRequest request){
         InputStream inStream;
         try {
-            //读取支付回调数据
+            //读取支付回调数据--获取网络输入流
             inStream = request.getInputStream();
-            ByteArrayOutputStream outSteam = new ByteArrayOutputStream();
-            byte[] buffer = new byte[1024];
+            ByteArrayOutputStream outSteam = new ByteArrayOutputStream();//
+            byte[] buffer = new byte[1024]; //设置缓冲区
             int len = 0;
             while ((len = inStream.read(buffer)) != -1) {
-                outSteam.write(buffer, 0, len);
+                outSteam.write(buffer, 0, len); //将缓冲区中的数据输入到字节流中
             }
             outSteam.close();
             inStream.close();
             // 将支付回调数据转换成xml字符串
-            String result = new String(outSteam.toByteArray(), "utf-8");
+            //outSteam.toByteArray()微信支付结果的字节数据
+            String result = new String(outSteam.toByteArray(), "UTF-8");
             //将xml字符串转换成Map结构
             Map<String, String> map = WXPayUtil.xmlToMap(result);
             //将消息发送给RabbitMQ

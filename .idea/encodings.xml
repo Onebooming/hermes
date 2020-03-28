@@ -13,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-goods-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-order-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-search-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-seckill-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-service-user-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hermes-parent/hermes-service-api/hermes-web-item-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-canal" charset="UTF-8" />
@@ -22,6 +23,7 @@
     <file url="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-pay" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-seckill" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hermes-parent/hermes-service/hermes-service-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hermes-parent/hermes-user-oauth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hermes-parent/hermes-web" charset="UTF-8" />

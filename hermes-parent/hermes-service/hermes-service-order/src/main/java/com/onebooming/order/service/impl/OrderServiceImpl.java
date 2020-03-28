@@ -11,12 +11,18 @@ import com.onebooming.order.service.CartService;
 import com.onebooming.order.service.OrderService;
 import com.onebooming.user.feign.UserFeign;
 import entity.IdWorker;
+import org.springframework.amqp.AmqpException;
+import org.springframework.amqp.core.Message;
+import org.springframework.amqp.core.MessagePostProcessor;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
@@ -49,6 +55,9 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private UserFeign userFeign;
 
+    @Autowired
+    RabbitTemplate rabbitTemplate;
+
     /***
      * 订单的删除操作
      */
@@ -62,6 +71,8 @@ public class OrderServiceImpl implements OrderService {
 
         //删除缓存
         redisTemplate.boundHashOps("Order").delete(id);
+
+        //回滚库存，调用goods微服务
     }
 
     /***
@@ -70,13 +81,18 @@ public class OrderServiceImpl implements OrderService {
      * @param transactionid  微信支付的交易流水号
      */
     @Override
-    public void updateStatus(String orderId,String transactionid) {
+    public void updateStatus(String orderId,String transactionid, String paytime) throws ParseException {
         //1.修改订单
         Order order = orderMapper.selectByPrimaryKey(orderId);
-        order.setUpdateTime(new Date());    //时间也可以从微信接口返回过来，这里为了方便，我们就直接使用当前时间了
-        order.setPayTime(order.getUpdateTime());    //不允许这么写
+//        order.setUpdateTime(new Date());    //时间也可以从微信接口返回过来，这里为了方便，我们就直接使用当前时间了
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
+        Date payTime = simpleDateFormat.parse(paytime);
+        order.setUpdateTime(payTime);
+        order.setPayTime(payTime);    //不允许这么写
         order.setTransactionId(transactionid);  //交易流水号
         order.setPayStatus("1");    //已支付
+
+        //更新到数据库中
         orderMapper.updateByPrimaryKeySelective(order);
 
         //2.删除Redis中的订单记录
@@ -138,6 +154,21 @@ public class OrderServiceImpl implements OrderService {
 
         //增加用户积分
         userFeign.addPoints(10);
+
+        SimpleDateFormat simpleDateFormat  = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String nowData = simpleDateFormat.format(new Date());
+        System.out.println("创建订单时间(初始监听的时间)："+nowData);
+
+        //想RabbitMQ队列中添加消息
+        rabbitTemplate.convertAndSend("orderDelayQueue", (Object) order.getId(),new MessagePostProcessor(){
+
+            @Override
+            public Message postProcessMessage(Message message) throws AmqpException {
+                //设置延时读取
+                message.getMessageProperties().setExpiration("10000");
+                return message;
+            }
+        });
 
         //线上支付，记录订单
         if(order.getPayType().equalsIgnoreCase("1")){

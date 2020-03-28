@@ -5,6 +5,11 @@ spring:
     name: pay
   main:
     allow-bean-definition-overriding: true
+  rabbitmq:
+    host: 172.16.10.200
+    username: guest
+    password: guest
+    port: 5672
 eureka:
   client:
     service-url:
@@ -30,4 +35,14 @@ weixin:
   appid: wx8397f8696b538317
   partner: 1473426802
   partnerkey: T6m9iK73b0kn9g5v426MKfHQH7X8rKwb
-  notifyurl: http://www.itcast.cn
+  notifyurl: http://域名:端口/weixin/pay/notify/url # 微信支付的回调地址，用于外网访问
+
+#位置支付交换机和队列
+mq:
+  pay:
+    exchange:
+      order: exchange.order
+    queue:
+      order: queue.order
+    routing:
+      key: queue.order

@@ -22,6 +22,7 @@
         <module name="hermes-service-goods" />
         <module name="hermes-service-order-api" />
         <module name="hermes-web-search" />
+        <module name="hermes-service-seckill-api" />
         <module name="hermes-service-search-api" />
         <module name="hermes-service-user" />
         <module name="hermes-service-search" />
@@ -29,6 +30,7 @@
         <module name="hermes-service-content-api" />
         <module name="hermes-service-user-api" />
         <module name="hermes-service-goods-api" />
+        <module name="hermes-service-seckill" />
         <module name="hermes-web-item" />
       </profile>
     </annotationProcessing>
@@ -53,6 +55,8 @@
       <module name="hermes-service-pay" target="1.8" />
       <module name="hermes-service-search" target="1.8" />
       <module name="hermes-service-search-api" target="1.8" />
+      <module name="hermes-service-seckill" target="1.8" />
+      <module name="hermes-service-seckill-api" target="1.8" />
       <module name="hermes-service-user" target="1.8" />
       <module name="hermes-service-user-api" target="1.8" />
       <module name="hermes-user-oauth" target="1.8" />
@@ -85,6 +89,8 @@
       <module name="hermes-service-pay" options="-parameters" />
       <module name="hermes-service-search" options="-parameters" />
       <module name="hermes-service-search-api" options="-parameters" />
+      <module name="hermes-service-seckill" options="-parameters" />
+      <module name="hermes-service-seckill-api" options="-parameters" />
       <module name="hermes-service-user" options="-parameters" />
       <module name="hermes-service-user-api" options="-parameters" />
       <module name="hermes-user-oauth" options="-parameters" />
